@@ -1,0 +1,45 @@
+.fundo{
+    background-color:#FF6347;
+}
+
+.cabecalho{
+    text-align:center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 24px;
+    color: white;
+}
+
+#espaco{
+    height: 150px;
+    width: 200px;
+    position:relative;
+    bottom:10px;
+    border-radius: 5px;
+    
+}
+
+.fonte{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+}
+
+#espaco2{
+    width:180px;
+    position:relative;
+    bottom:10px;
+    border-radius: 5px;
+}
+.botao1{
+    position: relative;
+    float:left;
+    left:10px;
+    border-radius: 5px;
+}
+
+.botao2{
+    position: relative;
+    float: right;
+    right:1200px;
+    border-radius: 5px;
+  
+}
