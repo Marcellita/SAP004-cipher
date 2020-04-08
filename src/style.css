@@ -1,27 +1,39 @@
-.fundo{
-    background-color:#FF6347;
-}
+.fundo {
+    background-image: url(folhagem.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+} 
+
 
 .cabecalho{
     text-align:center;
     font-family: 'Questrial', sans-serif;
     font-size: 24px;
-    color: white;
+    color:#7FFF00;
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
 
-#espaco{
-    height: 150px;
-    width: 200px;
-    position:relative;
-    bottom:10px;
-    border-radius: 5px;
-    
+.descricao{
+    font-family: 'Raleway', sans-serif;
+    text-align:center;
+    font-size: 24px;
+    text-shadow:white 0.1em 0.1em 0.1em;
 }
 
 .fonte{
     font-family: 'Source Sans Pro', sans-serif;
     font-size:18px;
 }
+#palavra{
+    height: 150px;
+    width: 200px;
+    position:relative;
+    bottom:10px;
+    border-radius: 5px;
+}       
+    
 
 #espaco2{
     width:180px;

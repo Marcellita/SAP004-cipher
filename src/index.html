@@ -8,16 +8,21 @@
   <body class="fundo">
     <div id="root">
       <h1 class="cabecalho">Lançamento da linha Natureba</h1>
+      <p class="descricao"> Para maior segurança sobre o desenvolvimento da linha de maquiagem, favor 
+        inserir nos campos abaixo,a mensagem e a chave para ser cifrada ou decifrada para que apenas 
+        pessoas autorizadas saibam o quanto esta progredindo o projeto.  </p>
       <h3 class="fonte"> Qual é a mensagem?</h3>
-      <input type="textarea" id="espaco"></input>
-      <h3 class="fonte"> Qual o deslocamento?</h3>
-      <input type="textarea" id="espaco2"></input>
+      <input type="text" id="palavra">
+      <h3 class="fonte"> Qual é a chave?</h3>
+      <input type="text" id="desloc">
       <div>
-      <button class="botao1">Cifrar</button>
-      <button class="botao2">Decifrar</button>
+      <button class="botao1" id="cifra">Cifra</button>
+      <button class="botao2" id="decifra">Decifra</button>
       <p></p>
+      <div id="resultado"></div>
       </div>
     </div>
     <script src="index.js" type="module"></script>
+    
   </body>
 </html>
