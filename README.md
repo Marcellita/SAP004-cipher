@@ -34,4 +34,4 @@ Foi inicialmente desenvolvido em:
 -  Melhoria de UX/UI;
 - implementações de opção de caracteres especiais e espaço.
 ## 7. Considerações técnicas
- Esse projeto pode ser alterado conforme necessidade particular de cada cliente , mas sempre com o objetivo principal: troca de mensangens em total segurança. 
+ Esse projeto pode ser alterado conforme necessidade particular de cada cliente , mas sempre com o objetivo principal: troca de mensagens em total segurança. 
