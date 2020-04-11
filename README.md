@@ -1,14 +1,4 @@
 # Cifra de César
-
-## Índice
-
-* [1. Prefácio](#1-prefácio)
-* [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Objetivo do projeto] (# 3-objetivo-do-projeto)
-* [4. Funcionalidade da interface do usuário] (#4-funcionalidade-da-interface-do-usuário)
-* [5.Funcionalidade do projeto] (# 5- funcionalidade-do-projeto)
-* [6. Futuras Alterações](# 6- futuras-alterações)
-* [7. Considerações técnicas](#7-considerações-técn)
 ## 1. Prefácio
 A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
 tipo de cifra por substituição, em que cada letra do texto original é
@@ -34,7 +24,11 @@ Por motivos de  vazamento de informações confidenciais durante o processo de d
 ## 4.  Funcionalidade da interface do usuari
 O usuário ira digitar a mensagem,a chave de deslocamento  e escolher entre cifrar ou decifrar . 
 ## 5. Desenvolvimento do projeto: 
+Foi inicialmente desenvolvido em: 
 
+- HTML 5 
+- CSS 3
+- JavaScript: Porém dividido entre index.js e cipher.js,onde em index.js foi implementado as funcionalidades dos botões e em cipher.js a função em si tanto para cifragem quanto para decifragem.
 ## 6. Futuras Alterações: 
 - Melhoria da interface;
 -  Melhoria de UX/UI;
