@@ -8,10 +8,7 @@
 * [4. Funcionalidade da interface do usuário] (#4-funcionalidade-da-interface-do-usuário)
 * [5.Funcionalidade do projeto] (# 5- funcionalidade-do-projeto)
 * [6. Futuras Alterações](# 6- futuras-alterações)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras
-  complementares](#8-guias-dicas-e-leituras-complementares)ds
-* [9. Checklist](#9-checklist)
+* [7. Considerações técnicas](#7-considerações-técn)
 ## 1. Prefácio
 A cifra de César é uma das técnicas mais simples de cifrar uma mensagem. É um
 tipo de cifra por substituição, em que cada letra do texto original é
