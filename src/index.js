@@ -1,24 +1,26 @@
 import cipher from './cipher.js';
-const botaoCifra = document.getElementById("cifra");
-const botaoDecifra = document.getElementById("decifra");
-const frase = document.getElementById("palavra");
-const numberoffset = document.getElementById("desloc");
+   let botaoCifra = document.getElementById("cifra");
 
+   function ResultadoCifra(){
+   let frase = document.getElementById("palavra").value;
+   let numberoffset = Number(document.getElementById("desloc").value);
+   let cifragem = document.getElementById("resposta");
+   cifragem.innerHTML = cipher.encode(numberoffset,frase);
+
+}
 botaoCifra.addEventListener("click",ResultadoCifra);
 
-function ResultadoCifra(){
-   
-   document.getElementById("resultado").innerHTML = cipher.encode(numberoffset, frase);
 
+let botaoDecifra = document.getElementById("decifra");
+
+function ResultadoDecifra(){
+   let frase = document.getElementById("palavra").value;
+   let numberoffset = Number(document.getElementById("desloc").value);
+   let decifragem = document.getElementById("resposta");
+   decifragem.innerHTML = cipher.decode(numberoffset,frase);
 }
 
 botaoDecifra.addEventListener("click",ResultadoDecifra);
-
-function ResultadoDecifra(){
-  
-   document.getElementById("resultado").innerHTML = cipher.decode(numberoffset, frase);
-   
-}
 
 
 
