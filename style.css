@@ -26,8 +26,6 @@
 .fonte{
     font-family: 'Source Sans Pro', sans-serif;
     font-size:18px;
-    color: white;
-    text-shadow:black 0.1em 0.1em 0.1em;
 }
 #palavra{
     height: 150px;
