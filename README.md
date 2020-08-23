@@ -1,6 +1,6 @@
 # Cifra de César
  
- *** Projeto entregue em abril de 2020 porém refeito em agosto de 2020 ***
+ ***Projeto entregue em abril de 2020 porém refeito em agosto de 2020***
 
 ## 1. Prefácio
 
