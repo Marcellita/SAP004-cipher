@@ -1,21 +1,21 @@
 import cipher from './cipher.js';
-   let botaoCifra = document.getElementById("cifra");
-   let botaoDecifra = document.getElementById("decifra");
+   let btnCipher = document.getElementById("btn_cipher");
+   let btnDecipher= document.getElementById("btn_decipher");
 
-   botaoCifra.addEventListener("click",resultadoCifra);
-   botaoDecifra.addEventListener("click",resultadoDecifra);
+   btnCipher.addEventListener("click",resultCipher);
+   btnDecipher.addEventListener("click",resultDecipher);
 
-   function resultadoCifra(){
-   let frase = document.getElementById("palavra").value;
-   let numberoffset = Number(document.getElementById("desloc").value);
-   let cifragem = document.getElementById("resposta");
-   cifragem.innerHTML = cipher.encode(numberoffset,frase);
+   function resultCipher(){
+   let phrase = document.getElementById("message").value;
+   let numberoffset = Number(document.getElementById("displacement").value);
+   let encryption = document.getElementById("deciphered_message");
+   encryption.innerHTML = cipher.encode(numberoffset,phrase);
 }
-   function resultadoDecifra(){
-   let frase = document.getElementById("palavra").value;
-   let numberoffset = Number(document.getElementById("desloc").value);
-   let decifragem = document.getElementById("resposta");
-   decifragem.innerHTML = cipher.decode(numberoffset,frase);
+   function resultDecipher(){
+   let phrase = document.getElementById("message").value;
+   let numberoffset = Number(document.getElementById("displacement").value);
+   let encryption = document.getElementById("deciphered_message");
+   encryption.innerHTML = cipher.decode(numberoffset,phrase);
 }
 
 

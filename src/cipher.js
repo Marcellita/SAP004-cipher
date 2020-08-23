@@ -3,21 +3,21 @@ const cipher = {
     if( offset <= "0" || string === " " || typeof offset !== "number" || typeof string !== "string"){
       throw new TypeError;
     }
-    let resultado = "";
+    let result = "";
 
   for (let i = 0; i <string.length; i ++){
-    let posicaodaletra = string.charCodeAt(i);
-    resultado +=String.fromCharCode(((posicaodaletra - 65 + offset) % 26) + 65);
+    let letter_position = string.charCodeAt(i);
+    result +=String.fromCharCode(((letter_position - 65 + offset) % 26) + 65);
     } 
-  return resultado;
+  return result;
 },
   decode: function (offset, string) {
-    let resultado = "";
+    let result= "";
       for (let i = 0; i <string.length; i ++){
-    let posicaodaletra=string.charCodeAt(i);
-    resultado +=String.fromCharCode(((posicaodaletra + 65 - offset) % 26) + 65);
+    let letter_position=string.charCodeAt(i);
+    result +=String.fromCharCode(((letter_position + 65 - offset) % 26) + 65);
   }
-  return resultado;
+  return result;
 }
 };
 export default cipher;

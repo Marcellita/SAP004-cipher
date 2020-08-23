@@ -13,8 +13,8 @@
 <body>
   <header class="menu_bg">
     <div class="menu"> 
-      <div class="menu_logo">
-        <img src="./Utils/logo.png" alt="Logo">
+      <div class="menu_return">
+        <a href="/"><img src="./Utils/return.png" alt="return"></a>
       </div>
       <nav class="menu_nav">
         <ul>
@@ -25,20 +25,23 @@
       </nav>
     </div>
   </header>
-  <h1 class="introduction"> Linha Natureba</h1>
-    <section class="about">
-    <div class='about_img'>
-    <img src="./Utils/home.png" alt="Sobre 1">
+  <p class="message_p"> Mensagens </p>
+  <label for="message" class="form_text"> Digite sua mensagem:</label>
+  <div class="form_msg">
+      <textarea class="msg_textarea" id="message" placeholder= "Digite sua mensagem" ></textarea>
+      <textarea class="msg_textarea" id="deciphered_message" placeholder= " Mensagem criptografada ou descriptografada" ></textarea>
     </div>
-    </section>
+    <label for="cel" class="msg_text"> Quanto é a chave?</label>
+  <div class="msg_dice">
+      <input type="fone" class="msg_input" id="displacement" placeholder="Qual deslocamento?" name="desloc"/>
+  </div>
+  <div class="btn_cipher">
+    <button type="submit" class="submit_cipher"  id="btn_cipher">Cifra</button>
+    <button type="submit" class="submit_decipher"  id="btn_decipher">Decifra</button>
+  </div>
   <footer class="footer">
     <p>Marcella Teliceski &copy; Todos os direitos reservados </p>
   </footer>
+  <script src='index.js' type='module'></script>
 </body>
 </html>
-
-
-
-
-
-
