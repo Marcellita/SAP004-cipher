@@ -1,5 +1,6 @@
 # Cifra de César
-
+ 
+ *** Projeto entregue em abril de 2020 porém refeito em agosto de 2020 ***
 
 ## 1. Prefácio
 
@@ -47,19 +48,19 @@
   
   Tela Inicial: 
 
-  ![Tela de login](https://github.com/Marcellita/SAP004-burger-queen-1/blob/create-readme/src/images/login.png)
+  ![Tela de login](https://github.com/Marcellita/SAP004-cipher/blob/master/src/Utils/inicial.png)
 
   Tela Sobre o app:
 
-  ![Tela de pedidos](https://github.com/Marcellita/SAP004-burger-queen-1/blob/create-readme/src/images/menu.png)
+  ![Tela de pedidos](https://github.com/Marcellita/SAP004-cipher/blob/master/src/Utils/sobre.png)
 
   Tela Mensagem: 
 
-  ![Tela da cozinha](https://github.com/Marcellita/SAP004-burger-queen-1/blob/create-readme/src/images/cozinha.png)
+  ![Tela da cozinha](https://github.com/Marcellita/SAP004-cipher/blob/master/src/Utils/mensagem.png)
 
-  Paleta Contato:
+  Tela Contato:
 
-  ![Paleta de cores](https://github.com/Marcellita/SAP004-burger-queen-1/blob/create-readme/src/images/cores.jpeg)
+  ![Paleta de cores](https://github.com/Marcellita/SAP004-cipher/blob/master/src/Utils/contato.png)
 
 ## 7. Futuras Alterações: 
 
